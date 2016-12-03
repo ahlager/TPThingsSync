@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6607C1061DF335DF00688AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607C1051DF335DF00688AA6 /* AppDelegate.swift */; };
+		6607C1081DF335DF00688AA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607C1071DF335DF00688AA6 /* ViewController.swift */; };
+		6607C10A1DF335DF00688AA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6607C1091DF335DF00688AA6 /* Assets.xcassets */; };
+		6607C10D1DF335DF00688AA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6607C10B1DF335DF00688AA6 /* Main.storyboard */; };
+		6607C1181DF335DF00688AA6 /* TPThingsSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607C1171DF335DF00688AA6 /* TPThingsSyncTests.swift */; };
+		6607C1231DF335DF00688AA6 /* TPThingsSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607C1221DF335DF00688AA6 /* TPThingsSyncUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6607C1141DF335DF00688AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6607C0FA1DF335DF00688AA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6607C1011DF335DF00688AA6;
+			remoteInfo = TPThingsSync;
+		};
+		6607C11F1DF335DF00688AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6607C0FA1DF335DF00688AA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6607C1011DF335DF00688AA6;
+			remoteInfo = TPThingsSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6607C1021DF335DF00688AA6 /* TPThingsSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPThingsSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6607C1051DF335DF00688AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6607C1071DF335DF00688AA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6607C1091DF335DF00688AA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6607C10C1DF335DF00688AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6607C10E1DF335DF00688AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6607C1131DF335DF00688AA6 /* TPThingsSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPThingsSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6607C1171DF335DF00688AA6 /* TPThingsSyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPThingsSyncTests.swift; sourceTree = "<group>"; };
+		6607C1191DF335DF00688AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6607C11E1DF335DF00688AA6 /* TPThingsSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPThingsSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6607C1221DF335DF00688AA6 /* TPThingsSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPThingsSyncUITests.swift; sourceTree = "<group>"; };
+		6607C1241DF335DF00688AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6607C0FF1DF335DF00688AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6607C1101DF335DF00688AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6607C11B1DF335DF00688AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6607C0F91DF335DF00688AA6 = {
+			isa = PBXGroup;
+			children = (
+				6607C1041DF335DF00688AA6 /* TPThingsSync */,
+				6607C1161DF335DF00688AA6 /* TPThingsSyncTests */,
+				6607C1211DF335DF00688AA6 /* TPThingsSyncUITests */,
+				6607C1031DF335DF00688AA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6607C1031DF335DF00688AA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6607C1021DF335DF00688AA6 /* TPThingsSync.app */,
+				6607C1131DF335DF00688AA6 /* TPThingsSyncTests.xctest */,
+				6607C11E1DF335DF00688AA6 /* TPThingsSyncUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6607C1041DF335DF00688AA6 /* TPThingsSync */ = {
+			isa = PBXGroup;
+			children = (
+				6607C1051DF335DF00688AA6 /* AppDelegate.swift */,
+				6607C1071DF335DF00688AA6 /* ViewController.swift */,
+				6607C1091DF335DF00688AA6 /* Assets.xcassets */,
+				6607C10B1DF335DF00688AA6 /* Main.storyboard */,
+				6607C10E1DF335DF00688AA6 /* Info.plist */,
+			);
+			path = TPThingsSync;
+			sourceTree = "<group>";
+		};
+		6607C1161DF335DF00688AA6 /* TPThingsSyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				6607C1171DF335DF00688AA6 /* TPThingsSyncTests.swift */,
+				6607C1191DF335DF00688AA6 /* Info.plist */,
+			);
+			path = TPThingsSyncTests;
+			sourceTree = "<group>";
+		};
+		6607C1211DF335DF00688AA6 /* TPThingsSyncUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6607C1221DF335DF00688AA6 /* TPThingsSyncUITests.swift */,
+				6607C1241DF335DF00688AA6 /* Info.plist */,
+			);
+			path = TPThingsSyncUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6607C1011DF335DF00688AA6 /* TPThingsSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6607C1271DF335DF00688AA6 /* Build configuration list for PBXNativeTarget "TPThingsSync" */;
+			buildPhases = (
+				6607C0FE1DF335DF00688AA6 /* Sources */,
+				6607C0FF1DF335DF00688AA6 /* Frameworks */,
+				6607C1001DF335DF00688AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPThingsSync;
+			productName = TPThingsSync;
+			productReference = 6607C1021DF335DF00688AA6 /* TPThingsSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6607C1121DF335DF00688AA6 /* TPThingsSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6607C12A1DF335DF00688AA6 /* Build configuration list for PBXNativeTarget "TPThingsSyncTests" */;
+			buildPhases = (
+				6607C10F1DF335DF00688AA6 /* Sources */,
+				6607C1101DF335DF00688AA6 /* Frameworks */,
+				6607C1111DF335DF00688AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6607C1151DF335DF00688AA6 /* PBXTargetDependency */,
+			);
+			name = TPThingsSyncTests;
+			productName = TPThingsSyncTests;
+			productReference = 6607C1131DF335DF00688AA6 /* TPThingsSyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6607C11D1DF335DF00688AA6 /* TPThingsSyncUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6607C12D1DF335DF00688AA6 /* Build configuration list for PBXNativeTarget "TPThingsSyncUITests" */;
+			buildPhases = (
+				6607C11A1DF335DF00688AA6 /* Sources */,
+				6607C11B1DF335DF00688AA6 /* Frameworks */,
+				6607C11C1DF335DF00688AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6607C1201DF335DF00688AA6 /* PBXTargetDependency */,
+			);
+			name = TPThingsSyncUITests;
+			productName = TPThingsSyncUITests;
+			productReference = 6607C11E1DF335DF00688AA6 /* TPThingsSyncUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6607C0FA1DF335DF00688AA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = adam.lagerhausen;
+				TargetAttributes = {
+					6607C1011DF335DF00688AA6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					6607C1121DF335DF00688AA6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6607C1011DF335DF00688AA6;
+					};
+					6607C11D1DF335DF00688AA6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6607C1011DF335DF00688AA6;
+					};
+				};
+			};
+			buildConfigurationList = 6607C0FD1DF335DF00688AA6 /* Build configuration list for PBXProject "TPThingsSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6607C0F91DF335DF00688AA6;
+			productRefGroup = 6607C1031DF335DF00688AA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6607C1011DF335DF00688AA6 /* TPThingsSync */,
+				6607C1121DF335DF00688AA6 /* TPThingsSyncTests */,
+				6607C11D1DF335DF00688AA6 /* TPThingsSyncUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6607C1001DF335DF00688AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6607C10A1DF335DF00688AA6 /* Assets.xcassets in Resources */,
+				6607C10D1DF335DF00688AA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6607C1111DF335DF00688AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6607C11C1DF335DF00688AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6607C0FE1DF335DF00688AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6607C1081DF335DF00688AA6 /* ViewController.swift in Sources */,
+				6607C1061DF335DF00688AA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6607C10F1DF335DF00688AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6607C1181DF335DF00688AA6 /* TPThingsSyncTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6607C11A1DF335DF00688AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6607C1231DF335DF00688AA6 /* TPThingsSyncUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6607C1151DF335DF00688AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6607C1011DF335DF00688AA6 /* TPThingsSync */;
+			targetProxy = 6607C1141DF335DF00688AA6 /* PBXContainerItemProxy */;
+		};
+		6607C1201DF335DF00688AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6607C1011DF335DF00688AA6 /* TPThingsSync */;
+			targetProxy = 6607C11F1DF335DF00688AA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6607C10B1DF335DF00688AA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6607C10C1DF335DF00688AA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6607C1251DF335DF00688AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6607C1261DF335DF00688AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		6607C1281DF335DF00688AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TPThingsSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adam.lagerhausen.TPThingsSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6607C1291DF335DF00688AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TPThingsSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adam.lagerhausen.TPThingsSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6607C12B1DF335DF00688AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TPThingsSyncTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adam.lagerhausen.TPThingsSyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPThingsSync.app/Contents/MacOS/TPThingsSync";
+			};
+			name = Debug;
+		};
+		6607C12C1DF335DF00688AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TPThingsSyncTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adam.lagerhausen.TPThingsSyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPThingsSync.app/Contents/MacOS/TPThingsSync";
+			};
+			name = Release;
+		};
+		6607C12E1DF335DF00688AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TPThingsSyncUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adam.lagerhausen.TPThingsSyncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TPThingsSync;
+			};
+			name = Debug;
+		};
+		6607C12F1DF335DF00688AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TPThingsSyncUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adam.lagerhausen.TPThingsSyncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TPThingsSync;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6607C0FD1DF335DF00688AA6 /* Build configuration list for PBXProject "TPThingsSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6607C1251DF335DF00688AA6 /* Debug */,
+				6607C1261DF335DF00688AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6607C1271DF335DF00688AA6 /* Build configuration list for PBXNativeTarget "TPThingsSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6607C1281DF335DF00688AA6 /* Debug */,
+				6607C1291DF335DF00688AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6607C12A1DF335DF00688AA6 /* Build configuration list for PBXNativeTarget "TPThingsSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6607C12B1DF335DF00688AA6 /* Debug */,
+				6607C12C1DF335DF00688AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6607C12D1DF335DF00688AA6 /* Build configuration list for PBXNativeTarget "TPThingsSyncUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6607C12E1DF335DF00688AA6 /* Debug */,
+				6607C12F1DF335DF00688AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6607C0FA1DF335DF00688AA6 /* Project object */;
+}
