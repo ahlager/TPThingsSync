@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6607C1061DF335DF00688AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607C1051DF335DF00688AA6 /* AppDelegate.swift */; };
-		6607C1081DF335DF00688AA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607C1071DF335DF00688AA6 /* ViewController.swift */; };
 		6607C10A1DF335DF00688AA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6607C1091DF335DF00688AA6 /* Assets.xcassets */; };
 		6607C10D1DF335DF00688AA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6607C10B1DF335DF00688AA6 /* Main.storyboard */; };
 		6607C1181DF335DF00688AA6 /* TPThingsSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607C1171DF335DF00688AA6 /* TPThingsSyncTests.swift */; };
 		6607C1231DF335DF00688AA6 /* TPThingsSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607C1221DF335DF00688AA6 /* TPThingsSyncUITests.swift */; };
+		6607C1311DF3360900688AA6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607C1301DF3360900688AA6 /* MainViewController.swift */; };
+		6607C1351DF3362400688AA6 /* TaskHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607C1341DF3362400688AA6 /* TaskHelper.swift */; };
+		6607C1371DF3380500688AA6 /* ThingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607C1361DF3380500688AA6 /* ThingsController.swift */; };
+		6607C1471DF3389900688AA6 /* BirchOutline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6607C1401DF3388200688AA6 /* BirchOutline.framework */; };
+		6607C1481DF3389900688AA6 /* BirchOutline.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6607C1401DF3388200688AA6 /* BirchOutline.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +34,60 @@
 			remoteGlobalIDString = 6607C1011DF335DF00688AA6;
 			remoteInfo = TPThingsSync;
 		};
+		6607C13F1DF3388200688AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6607C1381DF3388100688AA6 /* BirchOutline.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 436C0D701D1D56D50089FA7A;
+			remoteInfo = BirchOutline;
+		};
+		6607C1411DF3388200688AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6607C1381DF3388100688AA6 /* BirchOutline.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 436C0D7A1D1D56D50089FA7A;
+			remoteInfo = BirchOutlineTests;
+		};
+		6607C1431DF3388200688AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6607C1381DF3388100688AA6 /* BirchOutline.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 436C0DB21D1D63630089FA7A;
+			remoteInfo = BirchOutlineiOS;
+		};
+		6607C1451DF3388200688AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6607C1381DF3388100688AA6 /* BirchOutline.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 436C0DBB1D1D63630089FA7A;
+			remoteInfo = BirchOutlineiOSTests;
+		};
+		6607C1491DF3389900688AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6607C1381DF3388100688AA6 /* BirchOutline.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 436C0D6F1D1D56D50089FA7A;
+			remoteInfo = BirchOutline;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6607C14B1DF3389900688AA6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6607C1481DF3389900688AA6 /* BirchOutline.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6607C1021DF335DF00688AA6 /* TPThingsSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPThingsSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6607C1051DF335DF00688AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6607C1071DF335DF00688AA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6607C1091DF335DF00688AA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6607C10C1DF335DF00688AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6607C10E1DF335DF00688AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +97,10 @@
 		6607C11E1DF335DF00688AA6 /* TPThingsSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPThingsSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6607C1221DF335DF00688AA6 /* TPThingsSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPThingsSyncUITests.swift; sourceTree = "<group>"; };
 		6607C1241DF335DF00688AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6607C1301DF3360900688AA6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6607C1341DF3362400688AA6 /* TaskHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskHelper.swift; sourceTree = "<group>"; };
+		6607C1361DF3380500688AA6 /* ThingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingsController.swift; sourceTree = "<group>"; };
+		6607C1381DF3388100688AA6 /* BirchOutline.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BirchOutline.xcodeproj; path = "../../../Downloads/BirchOutline-master-4/BirchOutline.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6607C1471DF3389900688AA6 /* BirchOutline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +132,7 @@
 		6607C0F91DF335DF00688AA6 = {
 			isa = PBXGroup;
 			children = (
+				6607C1381DF3388100688AA6 /* BirchOutline.xcodeproj */,
 				6607C1041DF335DF00688AA6 /* TPThingsSync */,
 				6607C1161DF335DF00688AA6 /* TPThingsSyncTests */,
 				6607C1211DF335DF00688AA6 /* TPThingsSyncUITests */,
@@ -96,7 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				6607C1051DF335DF00688AA6 /* AppDelegate.swift */,
-				6607C1071DF335DF00688AA6 /* ViewController.swift */,
+				6607C1301DF3360900688AA6 /* MainViewController.swift */,
+				6607C1361DF3380500688AA6 /* ThingsController.swift */,
+				6607C1341DF3362400688AA6 /* TaskHelper.swift */,
 				6607C1091DF335DF00688AA6 /* Assets.xcassets */,
 				6607C10B1DF335DF00688AA6 /* Main.storyboard */,
 				6607C10E1DF335DF00688AA6 /* Info.plist */,
@@ -122,6 +182,17 @@
 			path = TPThingsSyncUITests;
 			sourceTree = "<group>";
 		};
+		6607C1391DF3388100688AA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6607C1401DF3388200688AA6 /* BirchOutline.framework */,
+				6607C1421DF3388200688AA6 /* BirchOutlineTests.xctest */,
+				6607C1441DF3388200688AA6 /* BirchOutline.framework */,
+				6607C1461DF3388200688AA6 /* BirchOutlineiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,10 +203,12 @@
 				6607C0FE1DF335DF00688AA6 /* Sources */,
 				6607C0FF1DF335DF00688AA6 /* Frameworks */,
 				6607C1001DF335DF00688AA6 /* Resources */,
+				6607C14B1DF3389900688AA6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6607C14A1DF3389900688AA6 /* PBXTargetDependency */,
 			);
 			name = TPThingsSync;
 			productName = TPThingsSync;
@@ -190,6 +263,7 @@
 				TargetAttributes = {
 					6607C1011DF335DF00688AA6 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QA8MA567CL;
 						ProvisioningStyle = Automatic;
 					};
 					6607C1121DF335DF00688AA6 = {
@@ -215,6 +289,12 @@
 			mainGroup = 6607C0F91DF335DF00688AA6;
 			productRefGroup = 6607C1031DF335DF00688AA6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6607C1391DF3388100688AA6 /* Products */;
+					ProjectRef = 6607C1381DF3388100688AA6 /* BirchOutline.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6607C1011DF335DF00688AA6 /* TPThingsSync */,
@@ -223,6 +303,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6607C1401DF3388200688AA6 /* BirchOutline.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BirchOutline.framework;
+			remoteRef = 6607C13F1DF3388200688AA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6607C1421DF3388200688AA6 /* BirchOutlineTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BirchOutlineTests.xctest;
+			remoteRef = 6607C1411DF3388200688AA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6607C1441DF3388200688AA6 /* BirchOutline.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BirchOutline.framework;
+			remoteRef = 6607C1431DF3388200688AA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6607C1461DF3388200688AA6 /* BirchOutlineiOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BirchOutlineiOSTests.xctest;
+			remoteRef = 6607C1451DF3388200688AA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6607C1001DF335DF00688AA6 /* Resources */ = {
@@ -255,8 +366,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6607C1081DF335DF00688AA6 /* ViewController.swift in Sources */,
+				6607C1311DF3360900688AA6 /* MainViewController.swift in Sources */,
+				6607C1351DF3362400688AA6 /* TaskHelper.swift in Sources */,
 				6607C1061DF335DF00688AA6 /* AppDelegate.swift in Sources */,
+				6607C1371DF3380500688AA6 /* ThingsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +401,11 @@
 			isa = PBXTargetDependency;
 			target = 6607C1011DF335DF00688AA6 /* TPThingsSync */;
 			targetProxy = 6607C11F1DF335DF00688AA6 /* PBXContainerItemProxy */;
+		};
+		6607C14A1DF3389900688AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BirchOutline;
+			targetProxy = 6607C1491DF3389900688AA6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -396,8 +514,11 @@
 		6607C1281DF335DF00688AA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QA8MA567CL;
 				INFOPLIST_FILE = TPThingsSync/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adam.lagerhausen.TPThingsSync;
@@ -409,8 +530,11 @@
 		6607C1291DF335DF00688AA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QA8MA567CL;
 				INFOPLIST_FILE = TPThingsSync/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adam.lagerhausen.TPThingsSync;
