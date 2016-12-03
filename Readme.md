@@ -1,5 +1,3 @@
-Readme File
-
 # Summary
 
 Syncs tasks from a Taskpaper file to Things. 
